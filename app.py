@@ -13,7 +13,7 @@ def custom_count(value):
     # 特殊アイテムの場合は2個分、それ以外は1個分としてカウント
     total_count = 0
     for item in items:
-        if item == 'P' or item == 'Z' or item == '*CL':
+        if item == 'P' or item == '*CL':
             total_count += 2
         else:
             total_count += 1
